@@ -1,27 +1,163 @@
-
-(footprint 885012207013 (layer F.Cu) (tedit 678BB343)
-  (descr "<b>WCAP-CSGP MLCCs 0805</b><br>Solder type: Reflow,2 x 1.25x0.8( LxWxH) ;")
-  (attr smd)
-  (fp_text reference REF** (at 0.0 -1.4032 0) (layer F.SilkS)
-    (effects (font (size 0.32 0.32) (thickness 0.15)))
-  )
-  (fp_text value 885012207013 (at 0.0 1.1968 0) (layer F.Fab)
-    (effects (font (size 0.32 0.32) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.95 0.0) (size 0.9 1.3) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.95 0.0) (size 0.9 1.3) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -1.0 -0.625) (end -1.0 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.0 0.625) (end 1.0 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.0 -0.625) (end 1.0 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.0 0.625) (end 1.0 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.2 -0.725) (end 0.2 -0.725) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.2 0.725) (end 0.2 0.725) (layer F.SilkS) (width 0.2))
-  (fp_poly
-    (pts
-      (xy -1.6 -0.925)
-      (xy 1.6 -0.925)
-      (xy 1.6 0.925)
-      (xy -1.6 0.925)
-    ) (layer F.CrtYd) (width 0.1)
-  )
+(footprint "885012207013"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WCAP-CSGP MLCCs 0805</b><br>Solder type: Reflow,2 x 1.25x0.8( LxWxH) ;")
+	(property "Reference" "REF**"
+		(at 0 -1.4032 0)
+		(layer "F.SilkS")
+		(uuid "deff3b27-b39b-47dc-a02f-5d1016c62a3f")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "885012207013"
+		(at 0 1.1968 0)
+		(layer "F.Fab")
+		(uuid "a18106a7-51a3-4c09-aa14-a9321e71602d")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa415bf6-8dd3-4eaa-8436-b12ef7b7b8a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42fbd582-f5a8-4877-9781-21361cdd336e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da4c708c-173d-4378-912f-d4bbc46076e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -0.725)
+		(end 0.2 -0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d75b84d7-e4ea-458d-a1dc-4473de724c27")
+	)
+	(fp_line
+		(start -0.2 0.725)
+		(end 0.2 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14aa7454-5a30-41d4-90d8-a29be47469d3")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -0.925) (xy 1.6 -0.925) (xy 1.6 0.925) (xy -1.6 0.925)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "8264ab15-26aa-4722-85cb-cbc00005174c")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "617f868a-8a3f-4bfc-9806-05f927ca1028")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d8a2be0-e11a-4bbf-8aad-20f84b8cf8ce")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d285b37d-65c4-4834-acf8-fe78a1435e90")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5113554a-e5da-4598-a880-5684a20453ce")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d3b46510-7065-45e2-927c-0f7df66b62cc")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1673bf24-0fe4-4047-af2d-0dfa153738ac")
+	)
+	(model "${KIPRJMOD}/libraries/885012207013/885012207013.step"
+		(offset
+			(xyz 0 0 0.36)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

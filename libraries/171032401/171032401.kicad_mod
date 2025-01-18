@@ -1,95 +1,311 @@
-
-(footprint 171032401 (layer F.Cu) (tedit 678BA9AB)
-  (descr "<b>MagI³C-VDRM Variable Step Down Regulator Module<br></b>Size : TO263-7EP")
-  (attr smd)
-  (fp_text reference REF** (at 0.0 -6.704 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value 171032401 (at 9.967 6.439 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 7 smd rect (at -7.305 3.81) (size 3.06 0.89) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 6 smd rect (at -7.305 2.54) (size 3.06 0.89) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 5 smd rect (at -7.305 1.27) (size 3.06 0.89) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad EP smd rect (at 0.0 0.0) (size 8.54 5.35) (layers F.Cu F.Mask) (solder_mask_margin 0.102))
-  (pad 4 smd rect (at -7.305 0.0) (size 3.06 0.89) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 3 smd rect (at -7.305 -1.27) (size 3.06 0.89) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at -7.305 -2.54) (size 3.06 0.89) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 1 smd rect (at -7.305 -3.81) (size 3.06 0.89) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -4.57 -5.08) (end 5.28 -5.08) (layer F.Fab) (width 0.1))
-  (fp_line (start 5.28 -5.08) (end 5.28 5.08) (layer F.Fab) (width 0.1))
-  (fp_line (start 5.28 5.08) (end -4.57 5.08) (layer F.Fab) (width 0.1))
-  (fp_line (start -4.57 -5.08) (end -4.57 5.08) (layer F.Fab) (width 0.1))
-  (fp_line (start -4.67 -5.18) (end 5.28 -5.18) (layer F.SilkS) (width 0.2))
-  (fp_line (start 5.28 -5.18) (end 5.38 5.18) (layer F.SilkS) (width 0.2))
-  (fp_line (start 5.38 5.18) (end -4.67 5.18) (layer F.SilkS) (width 0.2))
-  (fp_line (start -4.67 5.18) (end -4.67 -5.18) (layer F.SilkS) (width 0.2))
-  (fp_circle (center -5.449 -4.964) (end -5.249 -4.964) (layer F.SilkS) (width 0.4))
-  (fp_poly
-    (pts
-      (xy -9.1 -5.38)
-      (xy 5.58 -5.38)
-      (xy 5.58 5.38)
-      (xy -9.1 5.38)
-    ) (layer F.CrtYd) (width 0.1)
-  )
-  (fp_poly
-    (pts
-      (xy -4.265 -2.675)
-      (xy -1.555 -2.675)
-      (xy -1.555 -0.1)
-      (xy -4.265 -0.1)
-      (xy -4.266 -2.674)
-      (xy -4.263 -2.674)
-      (xy -4.263 -2.673)
-    ) (layer F.Paste) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy 1.355 -2.675)
-      (xy 1.355 -0.1)
-      (xy -1.355 -0.1)
-      (xy -1.355 -2.674)
-    ) (layer F.Paste) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy 1.555 -2.675)
-      (xy 4.265 -2.675)
-      (xy 4.265 -0.1)
-      (xy 1.555 -0.1)
-      (xy 1.559 -2.676)
-    ) (layer F.Paste) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy -4.265 0.1)
-      (xy -1.555 0.1)
-      (xy -1.555 2.675)
-      (xy -4.265 2.675)
-      (xy -4.266 0.101)
-      (xy -4.263 0.101)
-      (xy -4.263 0.102)
-    ) (layer F.Paste) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy -1.355 0.1)
-      (xy 1.355 0.1)
-      (xy 1.355 2.675)
-      (xy -1.355 2.675)
-      (xy -1.355 0.101)
-      (xy -1.345 0.101)
-    ) (layer F.Paste) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy 1.555 0.1)
-      (xy 4.265 0.1)
-      (xy 4.265 2.675)
-      (xy 1.555 2.675)
-      (xy 1.555 0.099)
-      (xy 1.559 0.099)
-    ) (layer F.Paste) (width 0.01)
-  )
+(footprint "171032401"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>MagI³C-VDRM Variable Step Down Regulator Module<br></b>Size : TO263-7EP")
+	(property "Reference" "REF**"
+		(at 0 -6.704 0)
+		(layer "F.SilkS")
+		(uuid "08887e7d-254c-40df-9e9a-aed7d0ace6e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "171032401"
+		(at 9.967 6.439 0)
+		(layer "F.Fab")
+		(uuid "7c3cf0b7-879c-49b6-a0e7-be7c271cfc05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d9a3220-3384-4317-9b4b-6a50f44d8ba2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97eb6935-37dc-4708-b100-1023be70d3e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fddc617-57d5-4273-8069-0549f97f80fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 1.355 -2.675) (xy 1.355 -0.1) (xy -1.355 -0.1) (xy -1.355 -2.674)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "4882ac8b-a7e8-44a1-b134-f72c17d4b760")
+	)
+	(fp_poly
+		(pts
+			(xy 1.555 -2.675) (xy 4.265 -2.675) (xy 4.265 -0.1) (xy 1.555 -0.1) (xy 1.559 -2.676)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "41852a91-ab41-4e3c-a8d5-1ead9ce30b54")
+	)
+	(fp_poly
+		(pts
+			(xy -1.355 0.1) (xy 1.355 0.1) (xy 1.355 2.675) (xy -1.355 2.675) (xy -1.355 0.101) (xy -1.345 0.101)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "39cffdb3-6761-4138-a038-0742e1878d9d")
+	)
+	(fp_poly
+		(pts
+			(xy 1.555 0.1) (xy 4.265 0.1) (xy 4.265 2.675) (xy 1.555 2.675) (xy 1.555 0.099) (xy 1.559 0.099)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "48103380-032d-4e5d-8b84-c4c3d1ce71f3")
+	)
+	(fp_poly
+		(pts
+			(xy -4.265 -2.675) (xy -1.555 -2.675) (xy -1.555 -0.1) (xy -4.265 -0.1) (xy -4.266 -2.674) (xy -4.263 -2.674)
+			(xy -4.263 -2.673)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "32d1bd2c-deb9-4f90-b241-2ff973f8b6ff")
+	)
+	(fp_poly
+		(pts
+			(xy -4.265 0.1) (xy -1.555 0.1) (xy -1.555 2.675) (xy -4.265 2.675) (xy -4.266 0.101) (xy -4.263 0.101)
+			(xy -4.263 0.102)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "bf7379f4-e0a3-496d-96da-839db662787e")
+	)
+	(fp_line
+		(start -4.67 -5.18)
+		(end 5.28 -5.18)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46d643dd-2833-4dde-8d68-7a96794919f0")
+	)
+	(fp_line
+		(start -4.67 5.18)
+		(end -4.67 -5.18)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59a4a141-f5e3-4dd6-bc2b-e12f505e2431")
+	)
+	(fp_line
+		(start 5.28 -5.18)
+		(end 5.38 5.18)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c1959be-e76b-4e9d-b189-6ccb3c421060")
+	)
+	(fp_line
+		(start 5.38 5.18)
+		(end -4.67 5.18)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93a4100e-58ee-4101-9952-f2bcfb3b8b08")
+	)
+	(fp_circle
+		(center -5.449 -4.964)
+		(end -5.249 -4.964)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "305f0535-2923-42c9-bc56-0484b83162de")
+	)
+	(fp_poly
+		(pts
+			(xy -9.1 -5.38) (xy 5.58 -5.38) (xy 5.58 5.38) (xy -9.1 5.38)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "79a825de-5608-407f-8c19-5f6d29a48911")
+	)
+	(fp_line
+		(start -4.57 -5.08)
+		(end -4.57 5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cff4a14-ef99-4d86-beea-661c8961a6b3")
+	)
+	(fp_line
+		(start -4.57 -5.08)
+		(end 5.28 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65edd88c-8ae0-4a6f-b6e6-1f94bb65199f")
+	)
+	(fp_line
+		(start 5.28 -5.08)
+		(end 5.28 5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bde2565a-3a02-4b95-b548-99d1414a2b96")
+	)
+	(fp_line
+		(start 5.28 5.08)
+		(end -4.57 5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e508cc0-2298-4512-b652-e76635e5f3f8")
+	)
+	(pad "1" smd rect
+		(at -7.305 -3.81)
+		(size 3.06 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2a6dffc2-3eba-4026-b9a2-3b1c76f8fad2")
+	)
+	(pad "2" smd rect
+		(at -7.305 -2.54)
+		(size 3.06 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "c3a1e9f7-dd99-4b86-a687-8c14bb8ae73d")
+	)
+	(pad "3" smd rect
+		(at -7.305 -1.27)
+		(size 3.06 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "cd1c5158-093a-48ff-92c4-f0719cbffc6e")
+	)
+	(pad "4" smd rect
+		(at -7.305 0)
+		(size 3.06 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "5577b7f9-57d4-4228-864f-126ee83ff7ab")
+	)
+	(pad "5" smd rect
+		(at -7.305 1.27)
+		(size 3.06 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d9c1d3d2-fb5f-4f7b-b89a-d1027cd8988a")
+	)
+	(pad "6" smd rect
+		(at -7.305 2.54)
+		(size 3.06 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "edfdce0c-f73f-4391-985e-343e4aba334c")
+	)
+	(pad "7" smd rect
+		(at -7.305 3.81)
+		(size 3.06 0.89)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "15ce6cf4-7541-49a2-8a0c-785092f11cbd")
+	)
+	(pad "EP" smd rect
+		(at 0 0)
+		(size 8.54 5.35)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "69fd90ef-e5e9-49f2-be78-512047c8c4b1")
+	)
+	(model "${KIPRJMOD}/libraries/171032401/171032401.step"
+		(opacity 0.9900)
+		(offset
+			(xyz 0 0 0.55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

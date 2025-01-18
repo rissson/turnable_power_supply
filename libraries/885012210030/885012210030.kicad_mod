@@ -1,27 +1,163 @@
-
-(footprint 885012210030 (layer F.Cu) (tedit 678BABC9)
-  (descr "<b>WCAP-CSGP MLCCs 1812</b><br>4.5X3.2X2.0(LXWXH)")
-  (attr smd)
-  (fp_text reference REF** (at 0.09 -2.5932 0) (layer F.SilkS)
-    (effects (font (size 0.32 0.32) (thickness 0.15)))
-  )
-  (fp_text value 885012210030 (at -0.06 2.5568 0) (layer F.Fab)
-    (effects (font (size 0.32 0.32) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -2.2 0.0) (size 0.9 3.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 2.2 0.0) (size 0.9 3.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -2.25 -1.6) (end -2.25 1.6) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.25 1.6) (end 2.25 -1.6) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.25 -1.6) (end 2.25 -1.6) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.25 1.6) (end 2.25 1.6) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.47 -1.7) (end 1.46 -1.7) (layer F.SilkS) (width 0.2))
-  (fp_line (start 1.47 1.7) (end -1.46 1.7) (layer F.SilkS) (width 0.2))
-  (fp_poly
-    (pts
-      (xy -2.85 -2.1)
-      (xy 2.85 -2.1)
-      (xy 2.85 2.15)
-      (xy -2.85 2.15)
-    ) (layer F.CrtYd) (width 0.1)
-  )
+(footprint "885012210030"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WCAP-CSGP MLCCs 1812</b><br>4.5X3.2X2.0(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0.09 -2.5932 0)
+		(layer "F.SilkS")
+		(uuid "59068690-ac8f-4f94-a7f2-da127eb7058a")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "885012210030"
+		(at -0.06 2.5568 0)
+		(layer "F.Fab")
+		(uuid "8e3894e8-56f0-419d-b1ef-66eef2ced719")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3226788f-d312-40b6-a252-98b6ace49019")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e97bd0df-e3eb-4252-99c4-128542ca5fdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "817872d0-8bf2-4d63-bb27-a997a7dedc66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.47 -1.7)
+		(end 1.46 -1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47d07301-df51-432f-8f8c-fd2fc554708e")
+	)
+	(fp_line
+		(start 1.47 1.7)
+		(end -1.46 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa660c2b-6544-48a2-b162-9f86ab2c891c")
+	)
+	(fp_poly
+		(pts
+			(xy -2.85 -2.1) (xy 2.85 -2.1) (xy 2.85 2.15) (xy -2.85 2.15)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "caa0e29b-2462-415a-ad7c-e5a67a342756")
+	)
+	(fp_line
+		(start -2.25 -1.6)
+		(end -2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e21bde0-1419-4c00-bc86-a400853c656d")
+	)
+	(fp_line
+		(start -2.25 -1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c2d16da-fd70-4dc3-a90f-480db5765471")
+	)
+	(fp_line
+		(start -2.25 1.6)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95bfacc2-e4f6-4d16-b2fe-d25a1c95e3fe")
+	)
+	(fp_line
+		(start 2.25 1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eee83d87-a790-493a-9a63-8d9fd06ecba3")
+	)
+	(pad "1" smd rect
+		(at -2.2 0)
+		(size 0.9 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b79eda86-9c9e-4e4f-bfe9-1a9e9bd6fade")
+	)
+	(pad "2" smd rect
+		(at 2.2 0)
+		(size 0.9 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "40d42318-96d8-4b22-97b4-a60ac6d248a3")
+	)
+	(model "${KIPRJMOD}/libraries/885012210030/885012210030.step"
+		(offset
+			(xyz 0 0 0.975)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

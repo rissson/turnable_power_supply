@@ -1,53 +1,322 @@
-
-(footprint 694106301002 (layer F.Cu) (tedit 678AE970)
-  (descr "<b>WR-DC DC Power Jack Right Angled (6.4)")
-  (fp_text reference REF** (at 0.0 -6.135 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value 694106301002 (at 4.12 7.365 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 2 thru_hole circle (at 0.0 0.0) (size 2.0 2.0) (drill oval 0.8 3.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (pad 1 thru_hole circle (at 5.8 0.0) (size 2.0 2.0) (drill oval 0.8 3.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (pad 3 thru_hole circle (at 2.8 4.8) (size 2.0 2.0) (drill oval 3.0 0.8) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (fp_line (start 6.8 -4.6) (end -7.9 -4.6) (layer F.SilkS) (width 0.2))
-  (fp_line (start 6.8 4.6) (end 5.1 4.6) (layer F.SilkS) (width 0.2))
-  (fp_line (start 6.8 -4.6) (end 6.8 -1.89) (layer F.SilkS) (width 0.2))
-  (fp_line (start -7.9 -4.6) (end -7.9 4.6) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.5 4.6) (end -7.9 4.6) (layer F.SilkS) (width 0.2))
-  (fp_line (start 6.8 1.9) (end 6.8 4.6) (layer F.SilkS) (width 0.2))
-  (fp_line (start -7.8 -4.5) (end 6.7 -4.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 6.7 -4.5) (end 6.7 4.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 6.7 4.5) (end -7.8 4.5) (layer F.Fab) (width 0.1))
-  (fp_line (start -7.8 4.5) (end -7.8 -4.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 8.0 0.5) (end 7.0 0.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 7.0 0.5) (end 6.4 0.0) (layer F.Fab) (width 0.1))
-  (fp_line (start 6.4 0.0) (end 6.6 0.0) (layer F.Fab) (width 0.1))
-  (fp_line (start 6.4 0.0) (end 6.4 0.2) (layer F.Fab) (width 0.1))
-  (fp_text user "3" (at 2.3 3.5) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text user "1" (at 4.2 0.7) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text user "2" (at -1.7 0.6) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text user "PCB Cutout Area" (at 5.9 0.0) (layer Edge.Cuts)
-    (effects (font (size 0.2 0.2) (thickness 0.15)))
-  )
-  (fp_text user "PCB Cutout Area" (at 0.1 0.0) (layer Edge.Cuts)
-    (effects (font (size 0.2 0.2) (thickness 0.15)))
-  )
-  (fp_text user "PCB Cutout Area" (at 2.9 5.0) (layer Edge.Cuts)
-    (effects (font (size 0.2 0.2) (thickness 0.15)))
-  )
-  (fp_poly
-    (pts
-      (xy 7.1 6.0)
-      (xy -8.2 6.0)
-      (xy -8.2 -4.8)
-      (xy 7.1 -4.8)
-    ) (layer F.CrtYd) (width 0.1)
-  )
+(footprint "694106301002"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WR-DC DC Power Jack Right Angled (6.4)")
+	(property "Reference" "REF**"
+		(at 0 -6.135 0)
+		(layer "F.SilkS")
+		(uuid "8ed39639-3850-47bf-bb1f-48df3e4171a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "694106301002"
+		(at 4.12 7.365 0)
+		(layer "F.Fab")
+		(uuid "3edb072a-1054-4bef-bec6-de5e1174fdc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58695b38-936a-42f6-9db5-627e916e8a41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59430bd5-73ed-4978-a16d-17e2cbc52f17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29164215-7d20-4da7-919f-ad7773acd214")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.9 -4.6)
+		(end -7.9 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4513e19-affa-4049-8938-8e8c76e7e7eb")
+	)
+	(fp_line
+		(start 0.5 4.6)
+		(end -7.9 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5dd824e9-e871-42af-8afe-13be81fef5a7")
+	)
+	(fp_line
+		(start 6.8 -4.6)
+		(end -7.9 -4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6041ac4-05ce-47fa-a1aa-a8d89b113233")
+	)
+	(fp_line
+		(start 6.8 -4.6)
+		(end 6.8 -1.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59348ca6-00f6-45d0-b3e4-e64dc387e1de")
+	)
+	(fp_line
+		(start 6.8 1.9)
+		(end 6.8 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d56d506-2b75-49bb-ac1d-d6cd7d61e3db")
+	)
+	(fp_line
+		(start 6.8 4.6)
+		(end 5.1 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d42b2532-575c-4710-b1af-0064b9651522")
+	)
+	(fp_poly
+		(pts
+			(xy 7.1 6) (xy -8.2 6) (xy -8.2 -4.8) (xy 7.1 -4.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "59624b4a-f0de-46af-92ba-c8cbc4fc4499")
+	)
+	(fp_line
+		(start -7.8 -4.5)
+		(end 6.7 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32061d32-2e3b-4ae6-86c0-5b8cc66973e2")
+	)
+	(fp_line
+		(start -7.8 4.5)
+		(end -7.8 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ba2c81f-71f5-4baa-94c9-041a8aad4b35")
+	)
+	(fp_line
+		(start 6.4 0)
+		(end 6.4 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b27c7405-f2c7-4bf9-9460-09fb112805eb")
+	)
+	(fp_line
+		(start 6.4 0)
+		(end 6.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f38139a0-3d44-431f-9eab-b542a0e4c437")
+	)
+	(fp_line
+		(start 6.7 -4.5)
+		(end 6.7 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e92c34e4-5492-4a61-ae93-a1a26a70e490")
+	)
+	(fp_line
+		(start 6.7 4.5)
+		(end -7.8 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96e6263c-c966-4421-84fd-d7e3b137c774")
+	)
+	(fp_line
+		(start 7 0.5)
+		(end 6.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82915ecd-e625-4584-95a4-220772bb85a1")
+	)
+	(fp_line
+		(start 8 0.5)
+		(end 7 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dc54bfa-72b2-42ad-b4c6-67a95d009eb1")
+	)
+	(fp_text user "1"
+		(at 4.2 0.7 0)
+		(layer "F.SilkS")
+		(uuid "63031ebd-6c56-4799-8084-b2afe690becd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 2.3 3.5 0)
+		(layer "F.SilkS")
+		(uuid "c65bfb44-939c-4bd4-a14d-cd336f96493c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at -1.7 0.6 0)
+		(layer "F.SilkS")
+		(uuid "cd31219a-83cf-4fd6-bcdb-d2df258bf1a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "PCB Cutout Area"
+		(at 2.9 5 0)
+		(layer "Edge.Cuts")
+		(uuid "5877719f-b060-44aa-b76c-618a4e5899d5")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "PCB Cutout Area"
+		(at 0.1 0 0)
+		(layer "Edge.Cuts")
+		(uuid "65433546-8177-49b9-a904-bfb108d94969")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "PCB Cutout Area"
+		(at 5.9 0 0)
+		(layer "Edge.Cuts")
+		(uuid "ec5ed30d-2984-49c3-8c71-cca4a37312b5")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 5.8 0)
+		(size 2 2)
+		(drill oval 0.8 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "682496b6-e420-46c3-a105-346537f28c01")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill oval 0.8 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "15183fdf-85e3-4959-ba52-b9ba0d1620b9")
+	)
+	(pad "3" thru_hole circle
+		(at 2.8 4.8)
+		(size 2 2)
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "65da73ff-014f-45db-8a52-48b9fb95adfa")
+	)
+	(model "${KIPRJMOD}/libraries/694106301002/694106301002.step"
+		(offset
+			(xyz -4.25 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

@@ -1,27 +1,163 @@
-
-(footprint 74479775147A (layer F.Cu) (tedit 678BA07C)
-  (descr "<b>WE-PMI Power Multilayer Inductor</b><br><br>Size:0805, SMT 2pins<br>L X W X H=2mmX1.2mmX1mm")
-  (attr smd)
-  (fp_text reference REF** (at 0.0252 -1.5829 0) (layer F.SilkS)
-    (effects (font (size 0.48 0.48) (thickness 0.15)))
-  )
-  (fp_text value 74479775147A (at 2.6224 1.4514 0) (layer F.Fab)
-    (effects (font (size 0.48 0.48) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.9 0.0) (size 0.8 1.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.9 0.0) (size 0.8 1.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -1.0 0.625) (end 1.0 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.0 0.625) (end 1.0 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.0 -0.625) (end -1.0 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.0 -0.625) (end -1.0 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.2 -0.725) (end 0.2 -0.725) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.2 0.725) (end 0.2 0.725) (layer F.SilkS) (width 0.2))
-  (fp_poly
-    (pts
-      (xy -1.5 -0.925)
-      (xy 1.5 -0.925)
-      (xy 1.5 0.925)
-      (xy -1.5 0.925)
-    ) (layer F.CrtYd) (width 0.1)
-  )
+(footprint "74479775147A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WE-PMI Power Multilayer Inductor</b><br><br>Size:0805, SMT 2pins<br>L X W X H=2mmX1.2mmX1mm")
+	(property "Reference" "REF**"
+		(at 0.0252 -1.5829 0)
+		(layer "F.SilkS")
+		(uuid "77316cd7-ebf7-4535-a596-596fbf7ebe8b")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "74479775147A"
+		(at 2.6224 1.4514 0)
+		(layer "F.Fab")
+		(uuid "1741bae7-6c11-4a9c-97a2-1b1013ee440c")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc170af6-4aa5-46b2-80fb-99e9730f3c2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f11d7517-0d91-445f-abad-f51968c574d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d274507-6e4d-49dd-97b9-6cee47ae0437")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -0.725)
+		(end 0.2 -0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14f403aa-3243-48d7-b0f1-35cf75a6e0fd")
+	)
+	(fp_line
+		(start -0.2 0.725)
+		(end 0.2 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d898d6a-9af1-4213-a91d-cd8c0243f02d")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -0.925) (xy 1.5 -0.925) (xy 1.5 0.925) (xy -1.5 0.925)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "96ec9016-59af-4d52-8c55-b840dae0d194")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea123191-c18e-4f2e-8bd1-9a3049d5c471")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5329c998-ad25-4b3a-83fc-7bb292ab883c")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcff73b0-b476-4380-b136-7c5037347e4e")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6bfb4d2a-0e79-4d45-914a-512f9ac1587e")
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d620129a-1ef4-4fd8-a03e-de6eb861d8b1")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "81e96675-f1e5-4177-9d27-17df1df33502")
+	)
+	(model "${KIPRJMOD}/libraries/74479775147A/74479775147A.step"
+		(offset
+			(xyz 0 -0.5 0.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
