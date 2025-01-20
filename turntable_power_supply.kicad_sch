@@ -443,12 +443,13 @@
 				)
 			)
 			(property "Value" "694106301002"
-				(at -5.08 -7.62 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "694106301002:694106301002"
@@ -520,16 +521,6 @@
 				)
 			)
 			(property "IR" "5A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "694106301002"
 				(at 0 0 0)
 				(effects
 					(font
@@ -15121,7 +15112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "885012214006:885012214006"
+		(property "Footprint" "885012214005:885012214005"
 			(at 176.53 100.33 0)
 			(effects
 				(font
